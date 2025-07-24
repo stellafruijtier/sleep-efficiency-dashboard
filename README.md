@@ -37,3 +37,13 @@ The dashboard enables users to dynamically filter by lifestyle and demographic v
   - Summary statistics
 
 - Supports **tailored exploration** of sleep trends across demographics
+
+
+## ⚙️ Requirements
+
+- R version 4.0 or later
+- Packages:
+
+<pre>
+install.packages(c("shiny", "plotly", "dplyr", "lubridate", "DT", "readr", "tidyr", "shinyWidgets", "bslib"))
+</pre>
