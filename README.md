@@ -1,13 +1,13 @@
 # sleep-efficiency-dashboard
 
-## 🛌 Sleep efficiency & Lifestyle Dashboard
+## Sleep efficiency & Lifestyle Dashboard
 
 This project investigates how lifestyle factors such as **alcohol consumption, exercise frequency, and smoking** influence **sleep efficiency, duration, and awakenings**. Using **R** and **Shiny**, we developed an interactive dashboard that visualizes these patterns across age and gender categories.
 
 This work was completed as the final project for the *Advanced Data Visualization* course at **Rollins College**.
 
 
-## 📚 Background
+## Background
 
 We explored three core hypotheses:
 
@@ -20,15 +20,15 @@ We explored three core hypotheses:
 The dashboard enables users to dynamically filter by lifestyle and demographic variables to explore these hypotheses visually and statistically
 
 
-## 🧠 What this dashboard does
+## What this dashboard does
 
 - Imports lifestyle and sleep dataset
 - Enables filtering by: **age, gender, smoking, alcohol, caffeine, and exercise frequency**
 - Visualizes relationships across three analysis tabs:
 
-  - 🍷 **Alcohol & Sleep**
-  - 🏋🏻 **Exercise & Sleep**
-  - 😴 **Sleep & Awakenings**
+  - **Alcohol & Sleep**
+  - **Exercise & Sleep**
+  - **Sleep & Awakenings**
 
 - Presents findings through:
 
@@ -39,7 +39,7 @@ The dashboard enables users to dynamically filter by lifestyle and demographic v
 - Supports **tailored exploration** of sleep trends across demographics
 
 
-## ⚙️ Requirements
+## Requirements
 
 - R version 4.0 or later
 - Packages:
@@ -65,7 +65,7 @@ shiny::runApp("sleep_dashboard.R")
 </pre>
 
 
-## 🧩 Key Findings
+## Key Findings
 
 🔷 Alcohol
 
@@ -88,7 +88,7 @@ shiny::runApp("sleep_dashboard.R")
 - Strong age x smoking interaction visible in bubble and boxplot visualizations.
 
 
-## 👥 Team Contributions
+## Team Contributions
 
 - **Stella Fruijtier** - *Exercise & Sleep Tab*: Creaed visualizations and analysis linking exercise frequency with sleep outcomes. Developed filtering by age, gender, and smoking status.
 - **Nico de Giacomo** - *Alcohol & Sleep Tab*: Built visual analysis to compare alcohol's effects across demographics slices. Led core hypothesis design.
@@ -97,17 +97,17 @@ shiny::runApp("sleep_dashboard.R")
 All members collaborated on UI design, visual style, layout, and interpretation.
 
 
-## 🎯 Intended Impact
+## Intended Impact
 
 This dashboard offers practical insights for:
 
-- 🧘🏻‍♀️ Wellness coaches designing behavior change plans
-- 🩺 Health professionals analyzing sleep metrics
-- 🧑🏻‍💻 Individuals wanting to optimize personal sleep hygiene
+- Wellness coaches designing behavior change plans
+- Health professionals analyzing sleep metrics
+- Individuals wanting to optimize personal sleep hygiene
 
 The results highlight that **sleep behavior is not one-size-fits-all** demographic aware, data-driven recommendations are key to improving wellness.
 
 
-## 📖 Acknowledgments
+## Acknowledgments
 
 This project was developed for the **Advanced Data Visualization** course at Rollins College given by Jasser Jasser.
